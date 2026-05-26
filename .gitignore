@@ -6,15 +6,12 @@ __pycache__/
 venv/
 env/
 
-# Credentials & cookies â€” NEVER commit these
-cookies/
-*.txt
-*.json
-!config/platforms.json
+# Credentials & cookies — NEVER commit
+cookies/*.txt
 config/settings.yaml
 .env
 
-# Output files
+# Output & logs
 output/
 logs/
 *.mkv
@@ -25,7 +22,7 @@ logs/
 *.ass
 *.vtt
 
-# Keys & DRM
+# DRM keys
 *.wvd
 keys/
 cdm/
