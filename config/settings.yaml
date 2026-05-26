@@ -1,0 +1,41 @@
+# OTT Ripper — User Settings
+# Copy this file from settings.yaml.example and fill in your values.
+
+output:
+  base_path: ./output
+  quality: 1080p            # 4K | 1080p | 720p | 480p
+  format: mkv               # mkv | mp4
+  subtitles: true
+  audio_languages:
+    - hi
+    - en
+    - ta
+    - te
+
+cookies:
+  # Paths to Netscape-format cookie files exported from your browser
+  # Use a browser extension like "Get cookies.txt LOCALLY"
+  netflix:    ./cookies/netflix.txt
+  prime:      ./cookies/prime.txt
+  disney:     ./cookies/disney.txt
+  hbomax:     ./cookies/hbomax.txt
+  hulu:       ./cookies/hulu.txt
+  hotstar:    ./cookies/hotstar.txt
+  jiocinema:  ./cookies/jiocinema.txt
+  sonyliv:    ./cookies/sonyliv.txt
+  zee5:       ./cookies/zee5.txt
+  altbalaji:  ./cookies/altbalaji.txt
+  aha:        ./cookies/aha.txt
+  voot:       ./cookies/voot.txt
+  sun_nxt:    ./cookies/sun_nxt.txt
+
+tools:
+  yt_dlp_path:    yt-dlp
+  ffmpeg_path:    ffmpeg
+  mp4decrypt_path: mp4decrypt
+  aria2c_path:    aria2c
+
+batch:
+  max_workers: 2            # Parallel downloads (keep low to avoid bans)
+  retry_count: 3
+  retry_delay: 10           # Seconds between retries

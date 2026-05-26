@@ -1,0 +1,31 @@
+{
+  "global": {
+    "netflix":   { "base": "https://www.netflix.com", "drm": "widevine", "max_quality": "1080p", "needs_cookie": true },
+    "prime":     { "base": "https://www.primevideo.com", "drm": "widevine", "max_quality": "1080p", "needs_cookie": true },
+    "disney":    { "base": "https://www.disneyplus.com", "drm": "widevine", "max_quality": "1080p", "needs_cookie": true },
+    "hbomax":    { "base": "https://www.max.com", "drm": "widevine", "max_quality": "1080p", "needs_cookie": true },
+    "hulu":      { "base": "https://www.hulu.com", "drm": "widevine", "max_quality": "1080p", "needs_cookie": true },
+    "apple":     { "base": "https://tv.apple.com", "drm": "fairplay", "max_quality": "720p", "needs_cookie": true },
+    "peacock":   { "base": "https://www.peacocktv.com", "drm": "widevine", "max_quality": "1080p", "needs_cookie": true },
+    "paramount": { "base": "https://www.paramountplus.com", "drm": "widevine", "max_quality": "1080p", "needs_cookie": true }
+  },
+  "indian": {
+    "hotstar":    { "base": "https://www.hotstar.com", "drm": "widevine", "max_quality": "1080p", "needs_cookie": true },
+    "jiocinema":  { "base": "https://www.jiocinema.com", "drm": "widevine", "max_quality": "4K", "needs_cookie": false },
+    "sonyliv":    { "base": "https://www.sonyliv.com", "drm": "widevine", "max_quality": "1080p", "needs_cookie": true },
+    "zee5":       { "base": "https://www.zee5.com", "drm": "widevine", "max_quality": "1080p", "needs_cookie": true },
+    "altbalaji":  { "base": "https://www.altbalaji.com", "drm": "widevine", "max_quality": "1080p", "needs_cookie": true },
+    "erosnow":    { "base": "https://erosnow.com", "drm": "widevine", "max_quality": "1080p", "needs_cookie": true },
+    "manoramamax":{ "base": "https://www.manoramamax.com", "drm": "widevine", "max_quality": "720p", "needs_cookie": true },
+    "hoichoi":    { "base": "https://www.hoichoi.tv", "drm": "widevine", "max_quality": "1080p", "needs_cookie": true }
+  },
+  "regional": {
+    "aha":      { "base": "https://www.aha.video", "drm": "widevine", "max_quality": "1080p", "needs_cookie": true, "languages": ["te","ta"] },
+    "mxplayer": { "base": "https://www.mxplayer.in", "drm": "none", "max_quality": "1080p", "needs_cookie": false },
+    "voot":     { "base": "https://www.voot.com", "drm": "widevine", "max_quality": "1080p", "needs_cookie": true },
+    "shemaroo": { "base": "https://www.shemaroome.com", "drm": "widevine", "max_quality": "720p", "needs_cookie": true },
+    "sun_nxt":  { "base": "https://www.sunnxt.com", "drm": "widevine", "max_quality": "1080p", "needs_cookie": true, "languages": ["ta","te","kn","ml"] },
+    "yupp_tv":  { "base": "https://www.yupptv.com", "drm": "widevine", "max_quality": "720p", "needs_cookie": true },
+    "stage":    { "base": "https://www.stage.in", "drm": "none", "max_quality": "720p", "needs_cookie": false }
+  }
+}
