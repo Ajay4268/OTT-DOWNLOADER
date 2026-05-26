@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Credentials & cookies — NEVER commit these
+cookies/
+*.txt
+*.json
+!config/platforms.json
+config/settings.yaml
+.env
+
+# Output files
+output/
+logs/
+*.mkv
+*.mp4
+*.ts
+*.m4v
+*.srt
+*.ass
+*.vtt
+
+# Keys & DRM
+*.wvd
+keys/
+cdm/
+
+# OS
+.DS_Store
+Thumbs.db

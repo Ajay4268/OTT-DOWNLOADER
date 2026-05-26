@@ -1,0 +1,27 @@
+# Core download engine
+yt-dlp>=2024.1.0
+
+# HTTP & API
+requests>=2.31.0
+httpx>=0.25.0
+curl-cffi>=0.6.0
+
+# Config & env
+pyyaml>=6.0
+python-dotenv>=1.0.0
+
+# Terminal UI
+rich>=13.0.0
+click>=8.1.0
+
+# Parsing
+lxml>=4.9.0
+beautifulsoup4>=4.12.0
+m3u8>=3.5.0
+
+# Crypto / DRM helpers
+pycryptodome>=3.19.0
+pywidevine>=1.8.0
+
+# Subtitles
+pysubs2>=1.6.0
